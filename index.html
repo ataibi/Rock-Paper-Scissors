@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors !</title>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="score">
+            <p><span class="playerScore">0</span> - <span class="computerScore">0</span></p>
+            <p id="gameMessage">Fight !</p>
+        </div>
+        <br>
+        <div class="player1 players">
+            <div class="choices">
+                <ul>
+                    <li>Q<a href="#" class="paper player">✋</a></li>
+                    <li>W<a href="#" class="rock player">👊</a></li>
+                    <li>E<a href="#" class="scissors player">✌️</a></li>
+                </ul>
+            </div>
+            <div class="hand player">
+                👋
+            </div>
+        </div>
+        <div class="player2 players">
+            <div class="hand computer">
+                👋
+            </div>
+            <div class="choices">
+                <ul>
+                    <li><a href="#" class="paper computer">✋</a></li>
+                    <li><a href="#" class="rock computer">👊</a></li>
+                    <li><a href="#" class="scissors computer">✌️</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <script src="rockPaperScissors.js"></script> 
 </body>
 </html>
